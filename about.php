@@ -14,6 +14,7 @@ include 'include/header.php';
                     <div class="col-md-6">
                         <p class="wow fadeInUp text-right" data-wow-delay="0.5s">Home / About Us</p>
                     </div>
+                    
                 </div>
             </div>
         </div>
