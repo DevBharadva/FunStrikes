@@ -156,12 +156,12 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
-
+    padding: 0.5rem 0.5rem;
+    color: white;
     /* Blur background */
     background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
-    backdrop-filter: blur(10px); /* Actual blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    backdrop-filter: blur(20px); /* Actual blur effect */
+    -webkit-backdrop-filter: blur(20px); /* Safari support */
     border-radius: 20px; /* Optional: Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: soft shadow */
     border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: soft border for contrast */
