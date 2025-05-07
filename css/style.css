@@ -152,7 +152,7 @@ header{
     z-index: 9999;
 }
 
-.navbar {
+.navbar {   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -180,6 +180,7 @@ header .navbar-dark .navbar-nav .nav-link{
     padding: 0.5rem 16px;
     font-family: 'Times New Roman', Times, serif;
 }
+
 header .navbar-dark .navbar-nav .nav-link.bro-btn{
     border-radius: 24px;
     border: 1px solid #fff;
@@ -191,8 +192,9 @@ header .navbar-dark .navbar-nav .nav-link.bro-btn{
     background-color: transparent;
     font-family: 'Times New Roman', Times, serif;
 }
+
 header .navbar-dark .navbar-nav .nav-link.bro-btn:hover{
-    color: #000;
+    color: #ffff;
     background-color: #B1E648;
     border: 1px solid #B1E648; 
 }
