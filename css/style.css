@@ -152,19 +152,20 @@ header{
     z-index: 9999;
 }
 
-.navbar {   
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 0.5rem;
-    /* Blur background */
-    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
-    backdrop-filter: blur(20px); /* Actual blur effect */
-    -webkit-backdrop-filter: blur(20px); /* Safari support */
-    border-radius: 50px; /* Optional: Rounded corners */
-    box-shadow: 0 0 10px rgba(218, 233, 213, 0.2); /* Optional: soft shadow */
-    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: soft border for contrast */
-}
+    width: 90%;
+    max-width: 1200px;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* for Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+  }
 
 
 header .navbar-dark .navbar-nav{

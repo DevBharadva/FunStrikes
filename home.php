@@ -18,7 +18,7 @@ include 'include/header.php';
         </video>
         <div class="black-overlay"></div>
         <div class="title-txt">
-            <h2 class="wow zoomIn"> <span>Where Fun </span><br> STRIKES FIRST</h2>
+            <h2 class="wow zoomIn"> <span> FUN </span><br>STRIKES</h2>
         </div>
     </section>
     <section class="about-sec">
