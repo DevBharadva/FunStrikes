@@ -65,7 +65,7 @@ body {
     font-family: "Anonymous Pro", monospace;
     font-size: 18px;
     color: #fff;
-    background-color: #0C0C0C;
+    /* background-color: #0C0C0C; */
     font-weight: 400;
 }
 
@@ -157,7 +157,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0.5rem;
-    color: white;
     /* Blur background */
     background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
     backdrop-filter: blur(20px); /* Actual blur effect */
@@ -172,7 +171,7 @@ header .navbar-dark .navbar-nav{
     align-items: center;
 }
 header .navbar-dark .navbar-brand img{
-    height: 90px;
+    height: 70px;
 }
 header .navbar-dark .navbar-nav .nav-link{
     font-size: 27px;
