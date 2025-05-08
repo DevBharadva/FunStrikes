@@ -1047,7 +1047,7 @@ footer .footer-bottam p a{
 
 @media (max-width: 768px) {
     header .navbar-dark .navbar-brand img{
-        height: 70px;
+        height: 40px;
     }
     header .navbar-dark .navbar-nav .nav-link.bro-btn {
         width: fit-content;
