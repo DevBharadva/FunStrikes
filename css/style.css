@@ -159,7 +159,7 @@ header{
     width: 90%;
     max-width: 1200px;
     padding: 1rem 2rem;
-    border-radius: 20px;
+    border-radius: 26px;
     background-color: rgba(210, 198, 198, 0.3); /* semi-transparent */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* for Safari */
