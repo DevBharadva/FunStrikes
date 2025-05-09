@@ -154,17 +154,18 @@ header{
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    max-width: 1200px;
-    padding: 1rem 2rem;
-    border-radius: 36px;
-    background-color: rgba(210, 198, 198, 0.3); /* semi-transparent */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* for Safari */
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    color: white;
+        justify-content: space-between;
+        align-items: center;
+        width: 79%;
+        height: 120px;
+        max-width: 1200px;
+        padding: 0.2rem 3.5rem;
+        border-radius: 50px;
+        background-color: rgba(210, 198, 198, 0.112);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
   }
 
 header .navbar-dark .navbar-nav{
