@@ -191,8 +191,8 @@ header {
   }
   
   .dropdown-menu {
-    display: none;
-    position: absolute;
+    display: inline-block;
+    position: relative;
     background-color: #1f1f1f;
     padding: 10px;
     border-radius: 10px;
@@ -202,9 +202,9 @@ header {
     min-width: 150px;
   }
   
-  /* .dropdown:hover .dropdown-menu {
-    display: block;
-  } */
+  .dropdown:hover .dropdown-menu {
+    display: list-item;
+  }
   
   .dropdown-menu li a {
     font-size: 16px;
@@ -281,7 +281,8 @@ header {
 .about-sec .heading h4{
     font-size: 30px;
     line-height: 1.25;
-    color: #fff;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
     padding-bottom: 40px;
 }
 .about-sec .heading h4 span{

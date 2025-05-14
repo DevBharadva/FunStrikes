@@ -71,7 +71,7 @@ $version = "0.4.9";
                                         <a class="dropdown-item" href="/bowling-with-spark">BOWLING WITH SPARK</a>
                                         <a class="dropdown-item" href="/arcade-games">ARCADE GAMES </a>
                                         <a class="dropdown-item" href="/vr-games">VR GAMES</a>
-                                        <a class="dropdown-item" href="/kiddie-rides">KIDDIE RIDES</a>
+                                        <a class="dropdown-item" href="/kiddie-rides">KIDDIE RIDES</a>  
                                         <a class="dropdown-item" href="/go-karting">GO KARTING</a>
                                         <!--<a class="dropdown-item" href="/games-play">ALL GAMES</a>-->
                                     </div>
