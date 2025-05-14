@@ -77,12 +77,13 @@ $version = "0.4.9";
         </li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
-      <div class="social-icons">
+     
+    </div>
+    <div class="social-icons">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
         <a href="#"><i class="fab fa-youtube"></i></a>
         <a href="#"><i class="fab fa-linkedin-in"></i></a>
         <a href="#"><i class="fab fa-instagram"></i></a>
       </div>
-    </div>
   </nav>
 </header>
