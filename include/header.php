@@ -49,42 +49,40 @@ $version = "0.4.9";
         </script>
     </head>
     <body>
-        <header>
-            <div class="container">
-                <div class="menu-container">
-                    <nav class="navbar navbar-expand-md position-fixed">
-                        <a class="navbar-brand " href="/"><img src="/images/logo.png" alt=""></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <ul class="navbar-nav ml-auto">
-                                <a class="nav-link <?php echo $page == 'home' ? 'active' : ''; ?>" href="/">HOME</a>
-                                <a class="nav-link <?php echo $page == 'about-us' ? 'active' : ''; ?>" href="/about-us">ABOUT</a>
-<!--                                <a class="nav-link <?php echo $page == 'games-play' ? 'active' : ''; ?>" href="/games-play">GAMES</a>-->
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                        GAMES
-                                    </a>
-                                    <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="/soft-play&trampoline">SOFT PLAY & TRAMPOLINE</a>
-                                        <a class="dropdown-item" href="/bowling-with-spark">BOWLING WITH SPARK</a>
-                                        <a class="dropdown-item" href="/arcade-games">ARCADE GAMES </a>
-                                        <a class="dropdown-item" href="/vr-games">VR GAMES</a>
-                                        <a class="dropdown-item" href="/kiddie-rides">KIDDIE RIDES</a>
-                                        <a class="dropdown-item" href="/go-karting">GO KARTING</a>
-                                        <!--<a class="dropdown-item" href="/games-play">ALL GAMES</a>-->
-                                    </div>
-                                </li>
-                                <a class="nav-link <?php echo $page == 'our-offer' ? 'active' : ''; ?>" href="/our-offer">OFFER</a>
-                                <a class="nav-link <?php echo $page == 'restaurant-us' ? 'active' : ''; ?>" href="/restaurant-us">RESTAURANT</a>
-                                <a class="nav-link <?php echo $page == 'our-event' ? 'active' : ''; ?>" href="/our-event">EVENTS</a>
-                                <a class="nav-link <?php echo $page == 'our-memories' ? 'active' : ''; ?>" href="/our-memories">MEMORIES</a>
-                                <a class="nav-link <?php echo $page == 'contact-us' ? 'active' : ''; ?> pr-4 mr-3" href="/contact-us">CONTACT</a>
-                                <a class="nav-link bro-btn" href="https://api.whatsapp.com/send?phone=917600557671&text=Hello" target="_blank">BOOK A PARTY</a>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
+        <!-- Save this as include/header.php -->
+<header>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="index.php" class="logo">
+        <img src="images/f-logo.png" alt="Fun Strike Logo">
+      </a>
+      <ul class="nav-menu">
+        <li><a href="home.php" class="active">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li class="dropdown">
+          <a href="#">Games ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="bowling.php">Bowling</a></li>
+            <li><a href="arcade.php">Arcade</a></li>
+            <li><a href="vr.php">VR</a></li>
+            <li><a href="karting.php">Karting</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Offers ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="offer.php">Special Offers</a></li>
+            <li><a href="policy.php">Policy</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </nav>
+</header>

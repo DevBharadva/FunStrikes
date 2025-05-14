@@ -146,105 +146,89 @@ button:hover a{
 
 /* #header
 ================================================== */
-header{
-    position: relative;
-     /* background-color: #1c1445; */
-    z-index: 9999;
-}
+/* Reset and common styles already included, adding navbar specific styles */
 
-.navbar {
-    display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 79%;
-        height: 120px;
-        max-width: 1200px;
-        padding: 0.2rem 3.5rem;
-        border-radius: 50px;
-        background-color: rgba(210, 198, 198, 0.112);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        color: white;
+header {
+    background: linear-gradient(to right, #2b2b2b, #1f1f1f);
+    border-radius: 40px;
+    margin: 20px;
+    padding: 15px 30px;
+    box-shadow: 0 0 10px #000;
   }
-
-header .navbar-dark .navbar-nav{
+  
+  .navbar-container {
+    display: flex;
     align-items: center;
-}
-header .navbar-dark .navbar-brand img{
-    height: 50px;
-}
-
-header .navbar-dark .navbar-nav .nav-link{
-    font-size: 27px;
-    color: #FFFFFF;
-    padding: 0.5rem 16px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-header .navbar-dark .navbar-nav .nav-link.bro-btn{
-    border-radius: 26px;
-    border: 1px solid #fff;
-    color: #fff;
-    font-size: 14px;
-    padding: 17px 30px;
-    font-weight: 700;
-    text-align: center;
-    background-color: transparent;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-header .navbar-dark .navbar-nav .nav-link.bro-btn:hover{
-    color: #ffff;
-    background-color: #B1E648;
-    border: 1px solid #B1E648; 
-}
-
-header .navbar-dark .navbar-nav .nav-link:hover{
-    color: #B1E648;
-}
-header .navbar-dark .navbar-nav .nav-link.active{
-    color: #B1E648; 
-}
-.navbar-toggler{
-    background-color: #C4BC87;
-    border: 1px solid #fff;
-}
-.navbar-toggler span{
-    margin-left: 0;
-}
-.navbar .dropdown-menu {
-    border-radius: 10px;
-    background-color: #212121;
-    padding: 10px 10px;
-    margin-bottom: 10px;
-}
-.navbar .dropdown-menu:before {
-    content: "";
-    border-bottom: 15px solid #212121;
-    border-right: 17px solid transparent;
-    border-left: 17px solid transparent;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  .nav-menu li {
+    position: relative;
+  }
+  
+  .nav-menu a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFBF3F;
+    padding: 10px;
+    font-family: 'Times New Roman', serif;
+    transition: 0.3s;
+  }
+  
+  .nav-menu a:hover,
+  .nav-menu .active {
+    border-bottom: 2px solid #FFBF3F;
+  }
+  
+  .dropdown-menu {
+    display: none;
     position: absolute;
-    top: -9px;
-    left: 12%;
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    top: 35px;
+    left: 0;
     z-index: 10;
-}
-.navbar .dropdown-item {
-    font-size: 18px;
+    min-width: 150px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    font-size: 16px;
+    display: block;
+    padding: 8px 10px;
     color: #fff;
-    border-bottom: 1px solid #2d2b2b;
-    padding: 10px 15px 6px 15px;
-    line-height: 1.30;
-}
-.navbar .dropdown-item:last-child{
-    border-bottom: none;
-}
-.navbar .dropdown-item:hover {
-    background-color: #1c1445;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #2e2e2e;
+    border-radius: 6px;
+  }
+  
+  .social-icons a {
+    margin-left: 15px;
+    color: #FFBF3F;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
     color: #fff;
-    border-radius: 8px;
-}
-
+  }
+  
 /* #home
 ================================================== */
 .home .slider{
@@ -378,6 +362,7 @@ header .navbar-dark .navbar-nav .nav-link.active{
     overflow: hidden;
     border-radius: 16px;
 }
+
 .home .game-sec .game-box .img-box img{
     display: block;
     transition: transform .4s;
