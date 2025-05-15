@@ -53,7 +53,7 @@ table {
 a {
     text-decoration: none;
     outline: none;
-    color: #FFFF;
+    color: black;
 }
 
 a:hover {
@@ -278,13 +278,13 @@ header {
 .about-sec{
     margin-bottom: 80px;
 }
-/* .about-sec .heading h4{
+.about-sec .heading h4{
     font-size: 30px;
     line-height: 1.25;
     color: #000;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 40px;
-} */
+}
 
 .about-sec .heading h4 span{
     color: #72cc5e;
