@@ -148,14 +148,23 @@ button:hover a{
 ================================================== */
 /* Reset and common styles already included, adding navbar specific styles */
 
-header {
-    background: linear-gradient(to right, #2b2b2b, #1f1f1f);
-    border-radius: 40px;
-    margin: 20px;
-    padding: 15px 30px;
-    box-shadow: 0 0 10px #000;
-  }
-  
+.navbar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 77%;
+    height: 120px;
+    max-width: 1200px;
+    padding: 3.2rem 5.5rem;
+    border-radius: 41px;
+    background-color: rgba(210, 198, 198, 0.112);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
   .navbar-container {
     display: flex;
     align-items: center;
